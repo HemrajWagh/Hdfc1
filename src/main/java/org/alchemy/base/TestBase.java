@@ -30,7 +30,7 @@ public class TestBase {
 			
 	}
 	
-	public void intialization() {
+	public void initialization() {
 		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome"))
 		{
@@ -49,6 +49,10 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("applicationUrl"));
+	}
+	public void tearDown()
+	{
+		driver.quit();
 	}
 
 }
