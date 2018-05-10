@@ -6,8 +6,8 @@
       <class name="org.alchemy.testcases.HomePageTest">
         <methods>
           <include name="setUp"/>
+          <include name="addNewRecordRiskTest"/>
           <include name="tearDown"/>
-          <include name="verifyclickOnMastersLinkTest"/>
         </methods>
       </class> <!-- org.alchemy.testcases.HomePageTest -->
     </classes>
