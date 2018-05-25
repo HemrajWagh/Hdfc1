@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24244" started-at="2018-05-10T13:18:26Z" finished-at="2018-05-10T13:18:51Z">
+  <suite name="Default suite" duration-ms="18901" started-at="2018-05-25T14:20:15Z" finished-at="2018-05-25T14:20:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24244" started-at="2018-05-10T13:18:26Z" finished-at="2018-05-10T13:18:51Z">
-      <class name="org.alchemy.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.alchemy.testcases.HomePageTest@132ec19]" name="setUp" is-config="true" duration-ms="5309" started-at="2018-05-10T13:18:26Z" finished-at="2018-05-10T13:18:32Z">
+    <test name="Default test" duration-ms="18901" started-at="2018-05-25T14:20:15Z" finished-at="2018-05-25T14:20:34Z">
+      <class name="org.alchemy.testcases.KCIMasterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.alchemy.testcases.KCIMasterPageTest@1622fdf]" name="setUp" is-config="true" duration-ms="5779" started-at="2018-05-25T14:20:16Z" finished-at="2018-05-25T14:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addNewRecordRiskTest()[pri:6, instance:org.alchemy.testcases.HomePageTest@132ec19]" name="addNewRecordRiskTest" duration-ms="17973" started-at="2018-05-10T13:18:32Z" finished-at="2018-05-10T13:18:50Z">
+        <test-method status="PASS" signature="ClickOnKCIMasterLink()[pri:1, instance:org.alchemy.testcases.KCIMasterPageTest@1622fdf]" name="ClickOnKCIMasterLink" duration-ms="13087" started-at="2018-05-25T14:20:21Z" finished-at="2018-05-25T14:20:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewRecordRiskTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.alchemy.testcases.HomePageTest@132ec19]" name="tearDown" is-config="true" duration-ms="926" started-at="2018-05-10T13:18:50Z" finished-at="2018-05-10T13:18:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.alchemy.testcases.HomePageTest -->
+        </test-method> <!-- ClickOnKCIMasterLink -->
+      </class> <!-- org.alchemy.testcases.KCIMasterPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

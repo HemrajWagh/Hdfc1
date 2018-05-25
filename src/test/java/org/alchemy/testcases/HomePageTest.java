@@ -13,8 +13,9 @@ import org.testng.annotations.Test;
 public class HomePageTest extends TestBase {
 	
 	LoginPage loginPage ;
-	HomePage homePage;
+	static HomePage homePage;
 	MastersPage mastersPage;
+	static HomePageTest homePageTest;
 	RiskMastersPage riskMastersPage;
 	public HomePageTest()	
 	{
@@ -40,38 +41,39 @@ public class HomePageTest extends TestBase {
 //	public void verifyCorrectUserNameTest()
 //	{
 //		boolean flag = homePage.verifyCorrectUserName();
+//		Assert.assertTrue(flag);
 //	}
-//	
-//
+	
+
 //	@Test(priority=3)
 //	public void verifyclickOnMastersLinkTest() throws InterruptedException
 //	{
 //		mastersPage=homePage.verifyclickOnMastersLink();
 //	}
 	
-	
-//	@Test(priority=4)
-//	public void clickOnRiskMastersLinkTest() throws InterruptedException
-//	{
-//		riskMastersPage=homePage.verifyclickOnRiskMastersLink();
-//	}
+//	
 	
 //	@Test(priority=5)
 //	public void addNewRecordRiskTest() throws InterruptedException
-//	{
-//		homePage.clickOnRiskMastersLink();
+//	{		homePage.clickOnRiskMastersLink();
 //	}
 	
+//	@Test(priority=6)
+//	public void enterRiskId() throws InterruptedException
+//	{
+//		homePage.enterRiskId(prop.getProperty("NewRisk"));
+//	}	
+	
 	@Test(priority=6)
-	public void addNewRecordRiskTest() throws InterruptedException
+	public static void VerifyKCIMasterLinkTest() throws InterruptedException
 	{
-		homePage.addNewRecordRisk();	
+		homePage.ClickOnKCIMasterLink();
 	}
 	
 	
 	
 	@AfterMethod
-	public void tearDown()
+	public void tearDown()	
 	{
 		driver.quit();
 	}

@@ -50,9 +50,6 @@ public class TestBase {
 		
 		driver.get(prop.getProperty("applicationUrl"));
 	}
-	public void tearDown()
-	{
-		driver.quit();
-	}
+
 
 }
