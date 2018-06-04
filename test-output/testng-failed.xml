@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.alchemy.testcases.KCIMasterPageTest">
+      <class name="org.alchemy.testcases.RiskMastersPageTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="ClickOnKCIMasterLink"/>
+          <include name="clickOnRiskMastersLinkTest"/>
         </methods>
-      </class> <!-- org.alchemy.testcases.KCIMasterPageTest -->
+      </class> <!-- org.alchemy.testcases.RiskMastersPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

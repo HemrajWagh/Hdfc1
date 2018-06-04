@@ -35,7 +35,6 @@ public class KCIMasterPageTest extends TestBase {
 	public void ClickOnKCIMasterLink() throws InterruptedException
 	{
 	  kciMasterPage.verifyKCIMasterLink();
-		
 	}
 	
 	
